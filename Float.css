@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header,
+footer {
+    background-color: #8267BE;
+    color: #FFBD35;
+    padding: 15px;
+}
+
+.menu {
+    width: 25%;
+
+}
+
+.content {
+    width: 75%;
+
+}
+
+.col {
+    float: left;
+    padding: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #392467;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: #8267BE;
+}
+
+#about {
+    margin: 0px;
+}
+
+p {
+    margin-top: 3px;
+}
